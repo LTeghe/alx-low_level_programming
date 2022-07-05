@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *main -  print_alphabet_x10
+ *print_alphabet -  print_alphabet_x10
  *
+ * Description: 'function print_alphabet'
  * Return: Always 0.
  */
 
