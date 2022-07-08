@@ -3,7 +3,7 @@
 /**
  * print_line - function that draws straight line in the terminal.
  *
- * @n; n is the number of times the character _ should be printed.
+ * @n: n is the number of times the character _ should be printed.
  *
  * Return: Always 0 (Success).
  */
