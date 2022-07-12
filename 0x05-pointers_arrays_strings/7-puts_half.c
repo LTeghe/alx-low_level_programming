@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * pus_half - prints the second half of a string.
+ * puts_half - prints the second half of a string.
  * @str: string to use.
  */
 
 void puts_half(char *str)
 {
-	int lenght, n, i;
+	int length, n, i;
 
 	for (length = 0; str[length] != '\0'; length++)
 	{
