@@ -12,14 +12,14 @@ int primenumber(int n, int m)
 		return (1);
 	if (n % m == 0)
 		return (0);
-	return (primenumber(n, m -1));
+	return (primenumber(n, m - 1));
 }
 
 /**
  * is_prime_number - checks is a given number is prime
  * @n: given number
  * Return: 1 if number is prime else 0
- * */
+ **/
 
 int is_prime_number(int n)
 {
