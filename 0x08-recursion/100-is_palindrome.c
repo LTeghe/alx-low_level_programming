@@ -28,13 +28,13 @@ int Palindrome_Rsv(char *s, int i, int j)
 		return (s[i] == s[j]);
 	if (s[i] != s[j])
 		return (0);
-	return (Palindrome_Rsv(s, i +1, j - 1));
+	return (Palindrome_Rsv(s, i + 1, j - 1));
 }
 /**
  * is_palindrome - check if a string is a palindrome
  * @s: pointer to string
  * Return: 1 if string palindrome else 0
- * */
+ **/
 
 int is_palindrome(char *s)
 {
