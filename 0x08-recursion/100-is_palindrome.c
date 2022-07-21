@@ -4,7 +4,7 @@
  * _strlen_recursion - finds the length of a string
  * @s: pointer to string
  * Return: length of string
- * */
+ **/
 
 int _strlen_recursion(char *s)
 {
@@ -18,8 +18,9 @@ int _strlen_recursion(char *s)
  @i: fiirst index
  @j: last index
 Return: 1 if equal, else 0
-*/
-int Palindrome_Rsv(har *s, int i, int j)
+**/
+
+int Palindrome_Rsv(char *s, int i, int j)
 {
 	if (i == j)
 		return (1);
