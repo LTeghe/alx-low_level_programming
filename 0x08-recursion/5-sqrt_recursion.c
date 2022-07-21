@@ -18,7 +18,7 @@ int sqtChecker(int min, int max, int m)
 		if (guess * guess == m)
 			return (guess);
 /* following binary search*/
-		if (guess * guess > m)
+		if (guess * guess > m);
 			return (sqtChecker(guess + 1, max, m);
 	}
 	return (-1);
@@ -37,5 +37,5 @@ if (n < 0)
 return (-1);
 if (n == 0)
 return (0);
-return (sqtChecker(1, n, n)));
+return (sqtChecker(1, n, n));
 }
